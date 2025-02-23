@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  width: 1440px;
+  margin: auto;
+  padding: 28px 165px 132px 165px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 125px;
+}
+
+.sneacers_section {
+  display: flex;
+  gap: 56.5px;
+  align-items: center;
+}
+
+.sneakers_img {
+  width: 137.5px;
+  height: 20px;
+  color: #c6c9ce;
+}
+.nav_links {
+  display: flex;
+  justify-content: space-between;
+  gap: 33px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Kumbh Sans", serif;
+  color: #69707d;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.cart_section {
+  display: flex;
+  gap: 46.18px;
+  align-items: center;
+}
+
+/* section */
+
+.first_section {
+  width: 1015px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 125px;
+}
+
+.child_section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.image_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.child_section2_h4 {
+  font-family: "Kumbh Sans", serif;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ff7e1b;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.child_section2_h2 {
+  font-family: "Kumbh Sans", serif;
+  font-size: 44px;
+  line-height: 48px;
+  color: #1d2026;
+  margin-bottom: 32px;
+  font-weight: bold;
+}
+
+.child_section2_p {
+  font-family: "Kumbh Sans", serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #69707d;
+  margin-bottom: 24px;
+}
+
+.sale_price {
+  display: flex;
+  gap: 23px;
+  margin-bottom: 3px;
+}
+
+.product_price {
+  font-family: "Kumbh Sans", serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1d2026;
+}
+
+.sale {
+  font-family: "Kumbh Sans", serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ff7e1b;
+}
+
+.old_price {
+  font-family: "Kumbh Sans", serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #B6BCC8;
+}
+
+.btn_box {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amount {
+  display: flex;
+  gap: 45.5px;
+  padding: 22px 16px;
+  align-items: center;
+}
+
+.amount1 {
+  color: #ff7e1b;
+}
+
+.amount1,
+.amount_0 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+
+.btn{
+    width: 272px;
+    height: 56px;
+    background-color: #FF7E1B;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 75px;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.btn_img{
+ 
+    color: white;
+}
